@@ -31,3 +31,15 @@ namespace ClassLibrary1
         }
     }
 }
+// To optimize the game, you can add a method to limit the frame rate and reduce unnecessary computations.
+window.UpdateFrame += (FrameEventArgs e) =>
+{
+    // Add logic to update game state here, minimizing heavy computations
+};
+
+// Optionally, set a target frame rate to reduce CPU/GPU usage
+window.VSync = VSyncMode.On;Version=v1.0.0.0
+// This will synchronize the frame rate with the monitor's refresh rate, reducing unnecessary rendering.
+        }
+    }
+}

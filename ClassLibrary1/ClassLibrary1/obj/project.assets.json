@@ -51,7 +51,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.207"
+      "SdkAnalysisLevel": "9.0.208"
     },
     "frameworks": {
       "net9.0": {
